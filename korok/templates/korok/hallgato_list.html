@@ -1,0 +1,5 @@
+<ul>
+    {% for hallgato in hallgato_list %}
+        <li><a href="/hallgato/{{ hallgato.pk }}/">{{ hallgato.name }}</a></li>
+    {% endfor %}
+</ul>

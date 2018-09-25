@@ -1,0 +1,9 @@
+<ul>
+  <li>{{hallgato.name}}</li>
+  <li>{{hallgato.sex}}</li>
+  <li>{{hallgato.neptun}}</li>
+  <li>{{hallgato.age}}</li>
+  {% for member in hallgato.kor_set.all%}
+    <li>{{member.name}}</li>
+  {% endfor %}
+</ul>
